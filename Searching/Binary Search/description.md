@@ -2,7 +2,7 @@
 
 Binary search allows for quicker search in a sorted array by repeatedly dividing the search interval in half.
 
-The idea of binary search is to use the information that the array is sorted and reduce the time complexity to `O(log N)`.
+The idea of binary search is to use the information that the array is sorted and reduce the time complexity to `O(log n)`.
 
 ### Steps
 
@@ -16,13 +16,13 @@ The idea of binary search is to use the information that the array is sorted and
 
 ### Time Complexity:
 
-**Best Case**: O(1)
+**Best Case**: `O(1)`
 
-**Average Case**: O(log N)
+**Average Case**: `O(log n)`
 
-**Worst Case**: O(log N)
+**Worst Case**: `O(log n)`
 
-**Auxiliary Space**: O(1), If the recursive call stack is considered then the auxiliary space will be O(logN).
+**Auxiliary Space**: `O(1)`, If the recursive call stack is considered then the auxiliary space will be `O(log n)`.
 
 ### Advantages of Binary Search:
 
